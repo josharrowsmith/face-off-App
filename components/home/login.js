@@ -84,7 +84,7 @@ register = () => {
             placeholder="password"
           />
           <Button
-            title="accept"
+            title="Login"
             color="#06062D"
             disabled={!this.state.email || !this.state.password}
             textStyle={{ fontSize: 20, fontWeight: 'bold' }}
